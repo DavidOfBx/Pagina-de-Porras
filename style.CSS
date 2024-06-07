@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header{
+    background-image: url(imagenes/hero.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+.menu .logo {
+    font-weight: 800;
+    font-size: 25px;
+    color: #f3dd16;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    display: block;
+}
+.menu .navbar ul li a:hover {
+    color: #d64fcf;
+
+}
+
+#menu{
+    display: none;
+
+}
+.menu-icono{
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    
+    
+}  
+    
+.content {
+    padding: 150px 150px 0px 0px;
+}
+
+
+
+
+
+.content h1{
+    font-size: 55px;
+    font-weight: 500;
+    color: rgba(219, 219, 219, 0.822);
+    text-transform: uppercase;
+    line-height: 55px;
+    
+}
+
+.content p {
+    margin-top: 25px;
+    color: #AAB1FF;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+
+    
+
+}
+
+
+
+.btn-1 {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: rgb(143, 22, 255);
+    border-radius: 25px;
+    color: #ffffff;
+    margin: 35px 10px 0px 0px;
+    border: 1px solid #AAB1FF;
+    
+}
+
+.btn-1:hover {
+    background-color: #AAB1FF;
+    
+   
+  
+}
+.header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 25px;
+    width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid blue;
+
+}
+
+.Info h3 {
+    font-size: 16px;
+    margin-right: 10px;
+    color: black;
+   
+}
+
+.Info p {
+    font-size: 14px;
+    color: black;
+
+}
+
+.users {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0px;
+
+}
+
+.user {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px 0px;
+    width: 200px;
+    box-shadow: 0 0 20 px black;
+    border-radius: 50px;
+
+} 
+
+.user h3 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 5px;
+
+}
+
+.user p {
+    font-size: 18px;
+    color: rgb(31, 29, 29);
+}
+
+.nosotros {
+    display: flex;
+    padding: 100px 0px;
+
+}
+
+.nosotros-txt {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.nosotros-txt h2 {
+    font-size: 40px;
+    color: #d4c814;
+    margin-bottom: 20px;
+}
+
+.nosotros-txt p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.nosotros-img {
+    width: 50%;
+}
+
+.nosotros-img img {
+    width: 500px;
+}
+
+.Jugabilidad {
+    justify-content: space-between;
+}
+
+.Jugabilidad {
+    padding: 20px 35px;
+    margin: 0px 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Jugabilidad img {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.Jugabilidad h3 {
+    font-size: 20px;
+}
+
+.services {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+
+}
+.service img {
+    margin-top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.porfolio {
+    padding: 80px 0px;
+    text-align: center;
+    color: #0E0E0E;
+
+
+}
+
+.porfolio h2 {
+    font-size: 55px;
+}
+
+.porfolio {
+    display: flex;
+    align-items: center;
+    
+}
+
+.porfolio img {
+    width: 250px;
+
+}
+
+.porfolio-1 {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.porfolio h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+ .porfolio p {
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+ }
+.porfolio-2 {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.porfolio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+
+.porfolio-2 p {
+    font-size: 18px;
+    color: #525254;
+    margin-bottom: 25px;
+
+
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: #7042b5;
+    color: #ffffff;
+}
+
+.btn-2:hover {
+    background-color: #8650D7;
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+    
+    .menu label {
+        display: initial;
+    }
+    
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #152056;
+        display: none;
+    }
+   
+    .menu .navbar ul li {
+        width: 100%;
+    }
+   
+    .menu .navbar ul li a {
+        color: #ffffff;
+    }
+   
+    .menu .navbar ul li a:hover {
+        color: #2bd16b;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+.header-content{
+    padding: 30px;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.header-1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.header-2{
+    width: 100%;
+    align-items: center;
+}
+
+.header-content video {
+    width: 96%;
+    left: 2%;
+    margin-top: 20px;
+}
+.users{
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.user{
+    margin-bottom: 20px;
+}
+.nosotros{
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.nosotros-txt{
+    width: 100%;
+    padding: 0px;
+}
+.nosotros-img{
+    width: 100%;
+    margin-top: 35px;
+}
+.nosotros-img img{
+    width: 300px;
+}
+.Jugabilidad{
+    padding: 30px;
+    flex-direction: column;
+}
+.Jugabilidad{
+    margin-bottom: 25px;
+}
+.Jugabilidad-video {
+    width: 100%;
+    margin-top: 35px;
+}
+.Jugabilidad-video video {
+    width: 100px;
+}
+.contacto{
+    padding: 30px;
+}
+.footer{
+    padding: 30px;
+}
+.footer-txt{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer-social{
+    flex-direction: column;
+    align-items: center;
+}
+.social-imgs{
+    margin-bottom: 30px;
+}
+
+}
